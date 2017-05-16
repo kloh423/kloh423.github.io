@@ -1,0 +1,112 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        font-family: 'Kaushian Script', cursive;
+    }
+
+    body{
+        font-family: 'Kaushian Script', cursive;
+    }
+
+    ul {
+        
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #999;
+        font-size: 0;
+    }
+    
+    li {
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    li a {
+        /* make sure the links clickable area is larger than just the text */
+        display: block;
+        text-align: center;
+        width: 100px;
+        padding: 10px;
+        /* remove underline on links */
+        text-decoration: none;
+        /* change link color */
+        color: white;
+    }
+    
+    
+    li a:hover {
+        background-color: #111;
+        color: white;
+    }
+
+.main-video {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.main-video iframe{
+    display: block;
+    margin: 0 auto;
+}
+.main-video-desc{
+    background-color: white;
+    padding: 10px;    
+}
+
+.main-video-desc p{
+    text-align: center;
+}
+
+.box {
+    /*width: 50%;*/
+    /*height: 50%;*/
+    background-image: url(concert.jpg)
+    background-color: #ccc;
+}
+
+.thumbnail-video iframe{
+    display: block;
+    margin: 0 auto;
+    
+    /*float: left;*/
+}
+
+.video-info {
+    width: 50%;
+    /*height: 50%;*/
+    display: inline-block;
+}
+
+.video-info p {
+    text-align: center;
+    float:right;
+}
+
+.row {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.thumbnail-video-right iframe{
+    display: block;
+    margin: 0 auto;
+   
+    /*float: right;*/
+}
+
+.video-info-right {
+    width: 50%;
+    /*height: 50%;*/
+    display: inline-block;
+}
+
+.video-info-right p {
+    text-align: center;
+    float:right;
+}
+
